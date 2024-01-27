@@ -1,0 +1,30 @@
+{
+  "name": "proximus-sms",
+  "version": "1.0.0",
+  "description": "Wrapper for the Proximus A2P SMS Api",
+  "main": "dist/index.js",
+  "scripts": {
+    "test": "pnpm test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/siemenvdn/proximus-sms.git"
+  },
+  "keywords": [
+    "Proximus",
+    "A2P",
+    "SMS"
+  ],
+  "author": "Siemen Van den Neste",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/siemenvdn/proximus-sms/issues"
+  },
+  "homepage": "https://github.com/siemenvdn/proximus-sms#readme",
+  "devDependencies": {
+    "typescript": "^5.3.3"
+  },
+  "dependencies": {
+    "axios": "^1.6.7"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "env": { "node": true },
+  "parserOptions": {
+    "project": "tsconfig.json"
+  },
+  "plugins": [],
+  "rules": {
+    "@typescript-eslint/strict-boolean-expressions": "error",
+    "import/no-unresolved": "off"
+  },
+  "ignorePatterns": [],
+  "overrides": [
+    {
+      "files": [
+        "src/**/*.test.ts"
+      ],
+      "rules": {
+        "@typescript-eslint/no-floating-promises": [
+          "off"
+        ]
+      }
+    }
+  ]
+}
