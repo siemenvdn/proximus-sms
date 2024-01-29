@@ -1,7 +1,7 @@
 export enum DeliveryStatus {
-    DeliveredToTerminal = 'DeliveredToTerminal',
-    DeliveryUncertain = 'DeliveryUncertain',
-    DeliveryImpossible = 'DeliveryImpossible',
-    MessageWaiting = 'MessageWaiting',
-    DeliveredToNetwork = 'DeliveredToNetwork'
+    DELIVERED_TO_TERMINAL = 'DeliveredToTerminal',
+    DELIVERY_UNCERTAIN = 'DeliveryUncertain',
+    DELIVERY_IMPOSSIBLE = 'DeliveryImpossible',
+    MESSAGE_WAITING = 'MessageWaiting',
+    DELIVERED_TO_NETWORK = 'DeliveredToNetwork'
 }
