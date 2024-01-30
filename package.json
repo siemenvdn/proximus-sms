@@ -4,7 +4,7 @@
   "description": "Wrapper for the Proximus A2P SMS Api",
   "main": "dist/index.js",
   "scripts": {
-    "test": "pnpm test"
+    "build": "rm -rf ./dist && tsc"
   },
   "repository": {
     "type": "git",
